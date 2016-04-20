@@ -14,7 +14,7 @@
 	<tag>exist</tag>
 	<category id="libs">Libraries</category>
 	<category id="exist">eXist extensions</category>
-	<dependency processor="http://exist-db.org/" />
+	<dependency processor="http://exist-db.org" semver-min="2.3.0" />
 	<dependency package="http://expath.org/lib/crypto" />
 	<fileSets>
 		<fileSet>
