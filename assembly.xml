@@ -15,7 +15,7 @@
 	<category id="libs">Libraries</category>
 	<category id="exist">eXist extensions</category>
 	<dependency processor="http://exist-db.org" semver-min="2.3.0" />
-	<dependency package="http://expath.org/lib/crypto" />
+	<dependency package="http://expath.org/ns/ft-client" />
 	<fileSets>
 		<fileSet>
 			<directory>..</directory>
