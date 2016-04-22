@@ -7,7 +7,7 @@
 	<copyright>true</copyright>
 	<type>application</type>
 	<status>stable</status>
-	<target>expath-${project.artifactId}</target>
+	<target>expath-${project.artifactId}-demos</target>
 	<tag>${module-prefix}</tag>
 	<tag>expath</tag>
 	<tag>${package-type}</tag>
@@ -18,14 +18,14 @@
 	<dependency package="http://expath.org/ns/ft-client" />
 	<fileSets>
 		<fileSet>
-			<directory>..</directory>
+			<directory>${expath-exist-demos-path}</directory>
 			<includes>
 				<include>controller.xql</include>
 			</includes>
 			<outputDirectory>/</outputDirectory>
 		</fileSet>
 		<fileSet>
-			<directory>..</directory>
+			<directory>${expath-exist-demos-path}</directory>
 			<includes>
 				<include>test-plan.xq</include>
 			</includes>
